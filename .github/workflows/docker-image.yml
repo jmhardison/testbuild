@@ -11,7 +11,7 @@ env:
   REGISTRY: "${{ secrets.REPOSITORY }}"
   # github.repository as <account>/<repo>
   IMAGE_NAME: "jmhtestimagetodelete"
-  IMGTAG: $(date +%s)
+  IMGTAG: "latest"
 
 jobs:
 
