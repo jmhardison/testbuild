@@ -52,6 +52,7 @@ jobs:
           registry: ${{ env.REGISTRY }}
           username: ${{ secrets.JF_USER }}
           password: ${{ secrets.JF_PASS }}
+          logout: false
 
       # Extract metadata (tags, labels) for Docker
       # https://github.com/docker/metadata-action
